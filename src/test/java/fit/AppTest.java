@@ -1,7 +1,7 @@
 package fit;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+//import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -27,7 +27,7 @@ public class AppTest
         assertEquals(baseSalaryExpected, actualBaseSalary, 0.01);
     }
 
-    @Test
+       @Test
     public void shouldCalculateExemptionValue() {
         // arrange
         var exemptionValueExpected = 1903.98;
@@ -76,5 +76,5 @@ public class AppTest
 
         // assert
         assertEquals(actualIrpfValue, irpfValueExpected, 0.01);
-    }
+    } 
 }
